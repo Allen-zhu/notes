@@ -1,0 +1,21 @@
+site_name: notes
+site_description: Public notes site
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  language: zh
+
+nav:
+  - 首页: README.md
+  - 公开导航: 10-index/公开导航.md
+  - Cheatsheets:
+      - Git:
+          - 常用命令: 20-cheatsheets/git/常用命令.md
+          - Tag 标签: 20-cheatsheets/git/Tag标签操作清单.md
+          - 多账号 SSH: 20-cheatsheets/git/多账号SSH配置与GitHubGitLab接入.md
+      - Docker: 20-cheatsheets/docker/常用操作.md
+      - Linux: 20-cheatsheets/linux/排障清单.md
+      - Shell:
+          - 常用片段: 20-cheatsheets/shell/常用片段.md
+          - uv 环境管理: 20-cheatsheets/shell/uv环境管理.md
